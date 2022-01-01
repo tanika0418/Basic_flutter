@@ -41,7 +41,7 @@ class _splashState extends State<splash> {
   @override
   Widget build(BuildContext context) {
     return Container(color:Colors.white,
-    child: Image.network('https://dsckiet.com/static/images/logo.png'));
+    child: Image.asset('assets/logo.jpeg'));
   }
 }
 
